@@ -1,10 +1,6 @@
 pipeline {
   agent anystages {
-  stage('Checkout') {
-  steps {
-    git 'https://github.com/InfotivVince/fooproject.git'
-    }
-  }  stage('Build') {
+  stage('Build') {
      steps {
       sh "mvn compile"
      }
