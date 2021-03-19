@@ -6,6 +6,7 @@ pipeline {
                 sh "mvn compile"
             }
         }
+        
         stage('Test') {
             steps {
                 sh "mvn test"
@@ -22,7 +23,7 @@ pipeline {
             }
             post {
                 always {
-                        junit '**/*xml'
+                        junit '**/*.xml'
                     }
                 }
             }
