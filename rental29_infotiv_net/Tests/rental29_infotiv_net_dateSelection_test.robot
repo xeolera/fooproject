@@ -23,8 +23,8 @@ Användaren kan mata egna datum-inputs i inmatningsfälten.
     [Documentation]                 Date Selection: Testa att inmatningsfältena går att skriva eget input.
     [Tags]                          G_Input_ID_2
     Go to Web Page
-    Input Date_Left                 0301
-    Input Date_Right                0302
+    Input Date_Left                 0322
+    Input Date_Right                0323
     Click Button Continue
     Verify Page Car_Selection Loaded
 
@@ -32,8 +32,8 @@ Användaren kan inte ha åtkomst till boka sidan om man matat in felaktig datum.
     [Documentation]                 Date Selection: Testa felhanteringen om användaren matar tidigare datum än dagens datum.
     [Tags]                          G_Boundries_ID_3A
     Go to Web Page
-    Input Date_Left                 0227
-    Input Date_Right                0228
+    Input Date_Left                 0318
+    Input Date_Right                0319
     Click Button Continue
     Verify Page Loaded
 
@@ -41,8 +41,8 @@ Användaren kan inte ha åtkomst till boka sidan om man matat in längre period 
     [Documentation]                 Date Selection: Testa felhanteringen om användaren matar in längre än 30 dagars-bokning.
     [Tags]                          G_Boundries_ID_3B
     Go to Web Page
-    Input Date_Left                 0228
-    Input Date_Right                0329
+    Input Date_Left                 0319
+    Input Date_Right                0421
     Click Button Continue
     Verify Page Loaded
 
@@ -50,8 +50,8 @@ Användaren kan inte ha åtkomst till boka sidan om man matat in bokning längre
     [Documentation]                 Date Selection: Testa felhanteringen om användaren matar in datum längre fram.
     [Tags]                          G_Boundries_ID_3C
     Go to Web Page
-    Input Date_Left                 0329
-    Input Date_Right                0330
+    Input Date_Left                 0419
+    Input Date_Right                0420
     Click Button Continue
     Verify Page Loaded
 
