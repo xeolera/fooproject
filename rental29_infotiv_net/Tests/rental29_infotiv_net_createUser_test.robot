@@ -36,9 +36,9 @@ Användaren skapar användare
     Verify Page_userRegistration Loaded
     Click Element input_firstName        Stefan
     Click Element input_lastName         Nikolic
-    Click Element input_phone            0765505219
-    Click Element input_createEmail      test19@hotmail.com
-    Click Element input_confirmEmail     test19@hotmail.com
+    Click Element input_phone            0765505220
+    Click Element input_createEmail      test20@hotmail.com
+    Click Element input_confirmEmail     test20@hotmail.com
     Click Element input_createPassword   123456
     Click Element input_confirmPassword  123456
     Click Button Create
