@@ -40,7 +40,7 @@ pipeline {
                           step(
                                 [
                                   $class              : 'RobotPublisher',
-                                  outputPath          : 'Results',
+                                  outputPath          : 'rental29_infotiv_net/Results',
                                   outputFileName      : '**/output.xml',
                                   reportFileName      : '**/report.html',
                                   logFileName         : '**/log.html',
