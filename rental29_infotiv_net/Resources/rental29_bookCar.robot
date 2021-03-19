@@ -79,7 +79,7 @@ USER confirms booking
 
 Verify Confirm Page
     Wait Until Page Contains Element    id:questionTextSmall
-    Page Should Contain                 A Audi Q7 is now ready for pickup 2021-03-03
+    Page Should Contain                 A Audi Q7 is now ready for pickup 2021-03-19
 
 Verify Mypage Loaded
     Click Element                       id:mypage
