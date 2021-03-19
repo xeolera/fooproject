@@ -45,7 +45,7 @@ USER navigates to finding car bookings
     Access Car Selection Page
 
 Book Audi Q7
-    Click Element                       id:bookQ7pass5
+    Click Element                       id:bookQ7pass7
     Wait Until Page Contains Element    id:questionText
     Page Should Contain                 Confirm booking of Audi Q7
 
